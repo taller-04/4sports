@@ -1,0 +1,14 @@
+{
+  "extends": "@4sports/config/tsconfig.react.json",
+  "compilerOptions": {
+    "plugins": [{ "name": "next" }],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@4sports/types": ["../../packages/types/src"],
+      "@4sports/utils": ["../../packages/utils/src"],
+      "@4sports/ui": ["../../packages/ui/src"]
+    }
+  },
+  "include": ["src/**/*", "next-env.d.ts", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
