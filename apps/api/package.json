@@ -3,8 +3,16 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "echo 'pendiente'",
-    "build": "echo 'pendiente'",
-    "lint": "eslint ."
-  }
+    "dev": "bun run --watch src/index.ts",
+    "build": "bun build src/index.ts --outdir dist --target bun",
+    "lint": "biome lint .",
+    "check": "biome check --write ."
+  },
+  "dependencies": {
+    "elysia": "latest"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
 }
