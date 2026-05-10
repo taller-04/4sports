@@ -1,0 +1,13 @@
+{
+  "extends": "../../packages/config/tsconfig.react.json",
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "@4sports/types": ["../../packages/types/src"],
+      "@4sports/utils": ["../../packages/utils/src"],
+      "@4sports/ui": ["../../packages/ui/src"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.d.ts", "nativewind-env.d.ts"],
+  "exclude": ["node_modules"]
+}
