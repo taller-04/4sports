@@ -18,6 +18,7 @@ bun build                                # build all apps
 bun check                                # lint + format + organize imports (Biome)
 bun lint                                 # lint only
 bun format                               # format only
+bun checktype                            # Check TypeScript Types
 ```
 
 No test commands are configured yet.
