@@ -8,6 +8,7 @@ dist
 build
 .next
 out
+drizzle
 
 # Turbo
 .turbo
@@ -30,6 +31,9 @@ Thumbs.db
 .vscode/*
 !.vscode/extensions.json
 .idea
+
+# AI
+.claude
 
 # Bun
 bun.lockb

@@ -1,5 +1,5 @@
 {
-  "extends": "@4sports/config/tsconfig.node.json",
+  "extends": "../../packages/config/tsconfig.node.json",
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": "src",
